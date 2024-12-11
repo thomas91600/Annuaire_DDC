@@ -1,0 +1,86 @@
+/* Typographie et structure de base */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #4caf50, #007BFF);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 900px;
+    width: 90%;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Header */
+header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Sections */
+.category {
+    margin-bottom: 30px;
+}
+
+.category h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #e3e3e3;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Boutons de lien */
+.box {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, #007BFF, #4caf50);
+    border: none;
+    border-radius: 50px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(45deg, #4caf50, #007BFF);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Adaptatif */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    .category h2 {
+        font-size: 1.5em;
+    }
+
+    .box {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}
