@@ -13,7 +13,7 @@ This project is an educational demonstration of a tool using Python to capture i
 -   FFmpeg 📽️
 
 
-## Installation and executabel creation :wrench:
+## Installation and executable creation :wrench:
 
 1. Clone the repository: `git clone https://github.com/thomas91600/Annuaire_DDC.git`
 2. Install dependencies: `pip install -r requirements.txt`
